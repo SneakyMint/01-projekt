@@ -7,10 +7,8 @@ import { LoggerMiddleware } from 'middleware/logger.middleware'
 import { AuthModule } from './auth/auth.module'
 import { JwtAuthGuard } from './auth/guards/jwt.guard'
 import { DatabaseModule } from './database/database.module'
-import { OrdersModule } from './orders/orders.module'
 import { PermissionsGuard } from './permissions/guards/permission.guard'
 import { PermissionsModule } from './permissions/permissions.module'
-import { ProductsModule } from './products/products.module'
 import { RolesModule } from './roles/roles.module'
 import { UsersModule } from './users/users.module'
 import { BidsModule } from './bids/bids.module';
@@ -26,6 +24,7 @@ import { AuctionItemsModule } from './auctionItems/auctionItems.module';
     DatabaseModule,
     UsersModule,
     AuthModule,
+    RolesModule,
     PermissionsModule,
     AuctionItemsModule,
     BidsModule,
