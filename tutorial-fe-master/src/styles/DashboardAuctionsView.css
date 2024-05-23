@@ -1,0 +1,14 @@
+.auction-card {
+    margin-top: 2rem;
+  }
+  
+  .auction-image {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .auction-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  

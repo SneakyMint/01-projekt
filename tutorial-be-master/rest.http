@@ -1,0 +1,4 @@
+curl -X POST -H "Content-Type: application/json" -d '{"email": "user@example.com", "password": "Password123"}' http://[::1]:8080/auth/login
+
+
+
